@@ -1,0 +1,59 @@
+Владимир Камбовски, 205014
+
+
+git init
+правам иницијализација во локалната датотека
+
+git remote add upstream https://github.com/VladimirKambovski/SI_2023_lab1_205014.git
+го поврзувам локалниот репозиториум со оддалечениот 
+
+git add SIlab1.java
+се додава фајлот во репозиториумот
+git commit -m "Add java class"
+
+git push master origin
+
+git branch bug1
+git branch bug2
+git branch bug3
+креирам гранки 
+
+git checkout bug1
+
+git commit -m "Fix wrong loop for reading"
+
+git checkout bug2
+
+git commit -m "Fix wrong condition in filterOddNumbers"
+
+git checkout bug3
+
+git commit -m "Fix method sumEvenNumbers"
+
+git push --all origin
+
+git checkout master
+
+git merge bug1  Не ми јави никаква грешка при спојување на гранките
+
+git push --all origin
+
+git merge bug2
+
+git push --all origin
+
+git merge bug3
+
+*Тука направив мала грешка, направив git merge bug3 пред да направам rebase али не ми даде никаков проблем
+
+
+git checkout bug3
+
+git rebase master bug3
+
+git checkout master
+
+git push --all origin
+
+Не ми јави никаква грешка на чекорите каде што спојував гранки ниту каде што правев push
+

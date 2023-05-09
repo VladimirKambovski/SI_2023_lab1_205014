@@ -1,0 +1,50 @@
+commit 544165f5c1b4a5c2b54e480de7b72c7ebd61b992 (HEAD -> master, origin/master, origin/bu
+g3, bug3)
+Merge: f861171 01ccd29
+Author: Kambovski <Vkambovski001@gmail.com>
+Date:   Tue May 9 23:13:57 2023 +0200
+
+    Merge branch 'bug3'
+
+commit f861171eb00acab61d6b243a5e4c3e57a4385fb4
+Merge: 37b9816 ae279c9
+Author: Kambovski <Vkambovski001@gmail.com>
+Date:   Tue May 9 23:13:26 2023 +0200
+
+    Merge branch 'bug2'
+
+commit 01ccd295af820d4755f55ffc069c30203fd253c6
+Author: Kambovski <Vkambovski001@gmail.com>
+Date:   Tue May 9 23:03:27 2023 +0200
+
+    fix method sumEvenNumbers
+
+commit ae279c9af12f697db6fc62d298f25d924666ce8f (origin/bug2, bug2)
+Author: Kambovski <Vkambovski001@gmail.com>
+Date:   Tue May 9 23:00:42 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 37b9816a8f111089a1ea76cbc73d1377fed52fd4 (origin/bug1, bug1)
+Author: Kambovski <Vkambovski001@gmail.com>
+Date:   Tue May 9 22:55:58 2023 +0200
+
+    Fix wrong loop for reading
+
+commit e6242e5da85f9eee32d625dc64a0786abb75fd70
+Author: Kambovski <Vkambovski001@gmail.com>
+Date:   Mon May 8 18:11:25 2023 +0200
+
+    Add java class
+
+commit ae14694c6f3e46ba69b9b7de635c93c073943c4b
+Author: VladimirKambovski <132489125+VladimirKambovski@users.noreply.github.com>
+Date:   Mon May 8 17:47:29 2023 +0200
+
+    Initial commit
+
+commit 2f76b7a849d44e60f3d8c82955981aaf7b811a63
+Author: VladimirKambovski <132489125+VladimirKambovski@users.noreply.github.com>
+Date:   Mon May 8 17:32:22 2023 +0200
+
+    Initial commit
